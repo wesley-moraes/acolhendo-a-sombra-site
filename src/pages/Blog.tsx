@@ -78,8 +78,8 @@ const Blog = () => {
                   variant={index === 0 ? "default" : "outline"}
                   className={`px-4 py-2 cursor-pointer transition-smooth ${
                     index === 0 
-                      ? 'bg-purple-medium hover:bg-purple-accent' 
-                      : 'border-purple-medium text-purple-medium hover:bg-purple-medium hover:text-primary-foreground'
+                      ? 'bg-primary hover:bg-accent' 
+                      : 'border-primary text-primary hover:bg-primary hover:text-primary-foreground'
                   }`}
                 >
                   {category}
@@ -101,7 +101,7 @@ const Blog = () => {
                         ARTIGO EM DESTAQUE
                       </Badge>
                       <h2 className="text-3xl font-bold mb-4">{article.title}</h2>
-                      <div className="flex items-center justify-center space-x-6 text-purple-light">
+                      <div className="flex items-center justify-center space-x-6 text-white/80">
                         <div className="flex items-center space-x-2">
                           <Calendar size={16} />
                           <span className="text-sm">{article.date}</span>
@@ -115,13 +115,13 @@ const Blog = () => {
                   </div>
                   <CardContent className="p-12 flex flex-col justify-center">
                     <div className="space-y-6">
-                      <Badge variant="outline" className="border-purple-medium text-purple-medium w-fit">
+                      <Badge variant="outline" className="border-primary text-primary w-fit">
                         {article.category}
                       </Badge>
                       <p className="text-muted-foreground text-lg leading-relaxed">
                         {article.excerpt}
                       </p>
-                      <button className="flex items-center space-x-2 text-purple-medium hover:text-purple-accent transition-smooth font-semibold">
+                      <button className="flex items-center space-x-2 text-primary hover:text-accent transition-smooth font-semibold">
                         <span>Ler artigo completo</span>
                         <ArrowRight size={20} />
                       </button>
@@ -145,7 +145,7 @@ const Blog = () => {
                 <Card key={index} className="shadow-medium hover:shadow-strong transition-smooth">
                   <CardHeader>
                     <div className="flex items-center justify-between mb-3">
-                      <Badge variant="outline" className="border-purple-medium text-purple-medium">
+                      <Badge variant="outline" className="border-primary text-primary">
                         {article.category}
                       </Badge>
                       <div className="flex items-center space-x-4 text-sm text-muted-foreground">
@@ -169,7 +169,7 @@ const Blog = () => {
                       {article.excerpt}
                     </p>
                     
-                    <button className="flex items-center space-x-2 text-purple-medium hover:text-purple-accent transition-smooth font-semibold">
+                    <button className="flex items-center space-x-2 text-primary hover:text-accent transition-smooth font-semibold">
                       <span>Continuar lendo</span>
                       <ArrowRight size={16} />
                     </button>
@@ -181,12 +181,12 @@ const Blog = () => {
         </section>
 
         {/* Newsletter Section */}
-        <section className="py-16 bg-purple-deep text-primary-foreground">
+        <section className="py-16 bg-card text-card-foreground">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-6">
               Não Perca Nenhum Artigo
             </h2>
-            <p className="text-xl text-purple-light mb-8">
+            <p className="text-xl text-muted-foreground mb-8">
               Receba nossos artigos diretamente em seu e-mail e mantenha-se conectado 
               com conteúdos sobre autoconhecimento e bem-estar emocional.
             </p>
@@ -194,9 +194,9 @@ const Blog = () => {
               <input 
                 type="email" 
                 placeholder="Seu e-mail"
-                className="flex-1 px-4 py-3 rounded-md text-purple-deep"
+                className="flex-1 px-4 py-3 rounded-md bg-input text-foreground border border-border"
               />
-              <button className="bg-white text-purple-deep px-6 py-3 rounded-md font-semibold hover:bg-purple-light transition-smooth">
+              <button className="bg-primary text-primary-foreground px-6 py-3 rounded-md font-semibold hover:bg-accent transition-smooth">
                 Inscrever-se
               </button>
             </div>

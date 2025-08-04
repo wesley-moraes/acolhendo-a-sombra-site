@@ -93,7 +93,7 @@ const Ebooks = () => {
                           <span className="font-semibold">{book.rating}</span>
                         </div>
                         <span className="text-muted-foreground">{book.pages}</span>
-                        <span className="text-2xl font-bold text-purple-medium">{book.price}</span>
+                        <span className="text-2xl font-bold text-primary">{book.price}</span>
                       </div>
 
                       <Button 
@@ -144,8 +144,8 @@ const Ebooks = () => {
                     </div>
                     
                     <div className="flex items-center justify-between">
-                      <span className="text-xl font-bold text-purple-medium">{book.price}</span>
-                      <Button variant="outline" className="border-purple-medium text-purple-medium hover:bg-purple-medium hover:text-primary-foreground">
+                      <span className="text-xl font-bold text-primary">{book.price}</span>
+                      <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
                         <Download className="mr-2" size={16} />
                         Baixar
                       </Button>
@@ -158,19 +158,19 @@ const Ebooks = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-purple-deep text-primary-foreground">
+        <section className="py-16 bg-card text-card-foreground">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-6">
               Receba Novos E-books Primeiro
             </h2>
-            <p className="text-xl text-purple-light mb-8">
+            <p className="text-xl text-muted-foreground mb-8">
               Inscreva-se em nossa newsletter e seja notificado sobre novos recursos 
               para sua jornada de autoconhecimento.
             </p>
             <Button 
               size="lg" 
               variant="secondary"
-              className="bg-white text-purple-deep hover:bg-purple-light"
+              className="bg-primary text-primary-foreground hover:bg-accent"
             >
               Inscrever-se na Newsletter
             </Button>

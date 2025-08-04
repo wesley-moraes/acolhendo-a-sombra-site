@@ -55,7 +55,7 @@ const Contato = () => {
                   
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-foreground">Tipo de Serviço</label>
-                    <select className="w-full px-3 py-2 border border-input rounded-md bg-background text-foreground">
+                    <select className="w-full px-3 py-2 border border-input rounded-md bg-background text-foreground focus:ring-2 focus:ring-primary">
                       <option value="">Selecione um serviço</option>
                       <option value="individual">Terapia Individual</option>
                       <option value="casal">Terapia de Casal</option>
@@ -94,8 +94,8 @@ const Contato = () => {
                   </CardHeader>
                   <CardContent className="space-y-6">
                     <div className="flex items-start space-x-4">
-                      <div className="p-2 bg-purple-light rounded-lg">
-                        <Mail className="text-purple-medium" size={20} />
+                      <div className="p-2 bg-secondary rounded-lg">
+                        <Mail className="text-primary" size={20} />
                       </div>
                       <div>
                         <h4 className="font-semibold text-foreground">E-mail</h4>
@@ -104,8 +104,8 @@ const Contato = () => {
                     </div>
                     
                     <div className="flex items-start space-x-4">
-                      <div className="p-2 bg-purple-light rounded-lg">
-                        <Phone className="text-purple-medium" size={20} />
+                      <div className="p-2 bg-secondary rounded-lg">
+                        <Phone className="text-primary" size={20} />
                       </div>
                       <div>
                         <h4 className="font-semibold text-foreground">Telefone/WhatsApp</h4>
@@ -114,8 +114,8 @@ const Contato = () => {
                     </div>
                     
                     <div className="flex items-start space-x-4">
-                      <div className="p-2 bg-purple-light rounded-lg">
-                        <MapPin className="text-purple-medium" size={20} />
+                      <div className="p-2 bg-secondary rounded-lg">
+                        <MapPin className="text-primary" size={20} />
                       </div>
                       <div>
                         <h4 className="font-semibold text-foreground">Localização</h4>
@@ -125,8 +125,8 @@ const Contato = () => {
                     </div>
                     
                     <div className="flex items-start space-x-4">
-                      <div className="p-2 bg-purple-light rounded-lg">
-                        <Clock className="text-purple-medium" size={20} />
+                      <div className="p-2 bg-secondary rounded-lg">
+                        <Clock className="text-primary" size={20} />
                       </div>
                       <div>
                         <h4 className="font-semibold text-foreground">Horário de Atendimento</h4>
@@ -154,9 +154,9 @@ const Contato = () => {
                         href="https://www.instagram.com/acolhendoasombra"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center space-x-3 p-3 rounded-lg border border-border hover:border-purple-medium hover:bg-purple-light transition-smooth"
+                        className="flex items-center space-x-3 p-3 rounded-lg border border-border hover:border-primary hover:bg-secondary transition-smooth"
                       >
-                        <Instagram className="text-purple-medium" size={24} />
+                        <Instagram className="text-primary" size={24} />
                         <div>
                           <h4 className="font-semibold text-foreground">Instagram</h4>
                           <p className="text-sm text-muted-foreground">@acolhendoasombra</p>
@@ -167,9 +167,9 @@ const Contato = () => {
                         href="https://www.youtube.com/@acolhendoasombra"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center space-x-3 p-3 rounded-lg border border-border hover:border-purple-medium hover:bg-purple-light transition-smooth"
+                        className="flex items-center space-x-3 p-3 rounded-lg border border-border hover:border-primary hover:bg-secondary transition-smooth"
                       >
-                        <Youtube className="text-purple-medium" size={24} />
+                        <Youtube className="text-primary" size={24} />
                         <div>
                           <h4 className="font-semibold text-foreground">YouTube</h4>
                           <p className="text-sm text-muted-foreground">@acolhendoasombra</p>

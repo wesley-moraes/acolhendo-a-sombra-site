@@ -25,13 +25,13 @@ const Index = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
             ACOLHENDO A SOMBRA
           </h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-purple-light animate-fade-in">
+          <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-muted-foreground animate-fade-in">
             Espaço de acolhimento, autoconhecimento e transformação emocional
           </p>
           <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
             <Button 
               size="lg" 
-              className="bg-white text-purple-deep hover:bg-purple-light transition-smooth shadow-medium"
+              className="bg-white text-primary hover:bg-muted transition-smooth shadow-medium"
               onClick={() => window.location.href = '/contato'}
             >
               Agendar Consulta
@@ -216,7 +216,7 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-purple-deep text-primary-foreground">
+      <section className="py-20 bg-card text-primary-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-8">
             <img 
@@ -227,7 +227,7 @@ const Index = () => {
             <h2 className="text-4xl font-bold mb-6">
               Pronto Para Começar Sua Jornada?
             </h2>
-            <p className="text-xl text-purple-light mb-8">
+            <p className="text-xl text-muted-foreground mb-8">
               Agende uma conversa inicial e descubra como posso apoiar você em seu 
               processo de autoconhecimento e transformação emocional.
             </p>
@@ -235,7 +235,7 @@ const Index = () => {
           <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
             <Button 
               size="lg" 
-              className="bg-white text-purple-deep hover:bg-purple-light transition-smooth"
+              className="bg-white text-primary hover:bg-muted transition-smooth"
               onClick={() => window.location.href = '/contato'}
             >
               Agendar Primeira Consulta
