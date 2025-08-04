@@ -4,7 +4,9 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/",  
+  base: mode === 'production' && process.env.DEPLOY_ENV === 'github'
+    ? '/acolhendo-a-sombra-site/' // para GitHub Pages
+    : '/', // para Render ou local
   server: {
     host: "::",
     port: 8080,
