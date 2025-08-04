@@ -22,8 +22,8 @@ const Index = () => {
         </div>
         
         <div className="relative z-10 text-center text-primary-foreground px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            ACOLHENDO A SOMBRA
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in ">
+            ACOLHENDO A SOMBRA!
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-muted-foreground animate-fade-in">
             Espaço de acolhimento, autoconhecimento e transformação emocional
