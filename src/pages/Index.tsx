@@ -1,11 +1,13 @@
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Heart, Users, BookOpen, Star } from 'lucide-react';
-import therapistHero from '@/assets/therapist-hero.jpg';
-import therapistSession from '@/assets/therapist-session.jpg';
-import therapistEnvironment from '@/assets/therapist-environment.jpg';
-import therapistPortrait from '@/assets/therapist-portrait.jpg';
+import { Heart, Users, BookOpen, Star, Shell } from 'lucide-react';
+//import therapistHero from '@/assets/therapist-hero.jpg';
+import therapistHeader from '@/assets/daphine/encontroLuzESombra.png'
+//import therapistSession from '@/assets/therapist-session.jpg';
+import therapistSession from '@/assets/daphine/Daphine01.jpg'
+import therapistEnvironment from '@/assets/daphine/Daphine03.jpg';
+import therapistPortrait from '@/assets/daphine/Daphine04.jpg';
 
 const Index = () => {
   return (
@@ -14,7 +16,7 @@ const Index = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src={therapistHero} 
+            src={therapistHeader} 
             alt="Terapeuta - Acolhendo a Sombra"
             className="w-full h-full object-cover"
           />
@@ -100,18 +102,18 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                icon: Heart,
-                title: 'Terapia Individual',
+                icon: Shell,
+                title: 'Baralho Cigano',
                 description: 'Sessões personalizadas focadas no seu crescimento pessoal e autoconhecimento.'
               },
               {
                 icon: Users,
-                title: 'Terapia de Casal',
+                title: 'Constelação Sistêmica Interdimensional',
                 description: 'Fortalecimento de vínculos e melhoria da comunicação em relacionamentos.'
               },
               {
                 icon: BookOpen,
-                title: 'Grupos Terapêuticos',
+                title: 'Terapia de Vidas Passadas',
                 description: 'Experiência de cura coletiva e apoio mútuo em um ambiente seguro.'
               }
             ].map((service, index) => (
@@ -244,9 +246,9 @@ const Index = () => {
               size="lg" 
               variant="outline" 
               className="border-white text-white hover:bg-white/10 transition-smooth"
-              onClick={() => window.location.href = '/blog'}
+              onClick={() => window.location.href = '/curso'}
             >
-              Ler Nossos Artigos
+              Veja Nossos Cursos
             </Button>
           </div>
         </div>

@@ -63,7 +63,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 Acolhendo a Sombra. Todos os direitos reservados.
+            © 2025 Acolhendo a Sombra. Todos os direitos reservados.
           </p>
         </div>
       </div>

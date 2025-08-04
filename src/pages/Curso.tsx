@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
 
-const Blog = () => {
+const curso = () => {
   const articles = [
     {
       title: 'O Que É a Sombra e Por Que Ela Importa?',
@@ -58,8 +58,8 @@ const Blog = () => {
         {/* Hero Section */}
         <section className="py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-              Blog & Artigos
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              Cursos no <span className='text-youtube'>Youtube!</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Reflexões, insights e conhecimentos sobre psicologia, autoconhecimento 
@@ -170,7 +170,7 @@ const Blog = () => {
                     </p>
                     
                     <button className="flex items-center space-x-2 text-primary hover:text-accent transition-smooth font-semibold">
-                      <span>Continuar lendo</span>
+                      <span>Acessar Vídeo</span>
                       <ArrowRight size={16} />
                     </button>
                   </CardContent>
@@ -207,4 +207,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default curso;

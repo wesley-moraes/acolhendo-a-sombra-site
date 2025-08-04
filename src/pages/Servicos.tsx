@@ -1,13 +1,14 @@
 import Layout from '@/components/Layout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Heart, Users, BookOpen, Video, Clock, MapPin } from 'lucide-react';
+import { Heart, Users, BookOpen, Video, Clock, MapPin, Shell } from 'lucide-react';
 
 const Servicos = () => {
+
   const services = [
     {
-      icon: Heart,
-      title: 'Terapia Individual',
+      icon: Shell,
+      title: 'Baralho Cigano',
       description: 'Sessões personalizadas para autoconhecimento e transformação emocional.',
       duration: '50 minutos',
       format: 'Presencial ou Online',
@@ -20,7 +21,7 @@ const Servicos = () => {
     },
     {
       icon: Users,
-      title: 'Terapia de Casal',
+      title: 'Constelação Sistêmica Interdimensional',
       description: 'Fortalecimento de vínculos e comunicação em relacionamentos.',
       duration: '60 minutos',
       format: 'Presencial ou Online',
@@ -33,7 +34,7 @@ const Servicos = () => {
     },
     {
       icon: BookOpen,
-      title: 'Grupos Terapêuticos',
+      title: 'Terapia de Vidas Passadas',
       description: 'Experiência de cura coletiva e apoio mútuo.',
       duration: '90 minutos',
       format: 'Presencial',
@@ -46,7 +47,20 @@ const Servicos = () => {
     },
     {
       icon: Video,
-      title: 'Supervisão Clínica',
+      title: 'Grupos Terapêuticos de Mulheres',
+      description: 'Orientação para profissionais da área de saúde mental.',
+      duration: '60 minutos',
+      format: 'Online ou Presencial',
+      features: [
+        'Desenvolvimento profissional',
+        'Discussão de casos',
+        'Apoio técnico',
+        'Crescimento clínico'
+      ]
+    },
+    {
+      icon: Video,
+      title: 'Desenvolvimento da sensitividade',
       description: 'Orientação para profissionais da área de saúde mental.',
       duration: '60 minutos',
       format: 'Online ou Presencial',

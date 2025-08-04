@@ -17,14 +17,14 @@ Paleta: tons escuros e acolhedores (preto, roxo e branco) para transmutação e 
     --popover: 0 0% 8%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 280 100% 70%;
-    --primary-foreground: 0 0% 10%;
+    --primary: 300, 74%, 41%;
+    --primary-foreground: 0 0% 85%;
 
     --secondary: 0 0% 15%;
     --secondary-foreground: 0 0% 95%;
 
     --muted: 0 0% 12%;
-    --muted-foreground: 0 0% 65%;
+    --muted-foreground: 0 0% 85%;
 
     --accent: 290 100% 60%;
     --accent-foreground: 0 0% 95%;
@@ -35,6 +35,11 @@ Paleta: tons escuros e acolhedores (preto, roxo e branco) para transmutação e 
     --border: 0 0% 20%;
     --input: 0 0% 20%;
     --ring: 280 100% 70%;
+
+    /*Custom*/
+    --youtubeColor: 0, 90%, 50%;
+    --youtubeColor-foreground: 0, 100%, 65%;
+
 
     /* Custom design tokens */
     --purple-deep: 280 100% 70%;
@@ -75,7 +80,7 @@ Paleta: tons escuros e acolhedores (preto, roxo e branco) para transmutação e 
     --popover: 0 0% 8%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 280 100% 70%;
+    --primary: 155, 100%, 61%;
     --primary-foreground: 0 0% 10%;
 
     --secondary: 0 0% 15%;

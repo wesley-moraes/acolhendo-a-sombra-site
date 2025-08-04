@@ -1,6 +1,6 @@
 import Layout from '@/components/Layout';
 import { Card, CardContent } from '@/components/ui/card';
-import therapistPortrait from '@/assets/therapist-portrait.jpg';
+import therapistPortrait from '@/assets/daphine/Daphine02.jpg';
 
 const Sobre = () => {
   return (
@@ -14,7 +14,10 @@ const Sobre = () => {
                 <h1 className="text-4xl md:text-5xl font-bold text-primary">
                   Sobre Mim
                 </h1>
-                <p className="text-xl text-muted-foreground">
+                <h2 className="text-2xl font-bold mb-6">
+                  IFAYEMÍ DE OSUN ÒBÀRÁ
+                </h2>
+                <p className="text-2xl text-muted-foreground">
                   Psicóloga dedicada ao acolhimento e transformação emocional
                 </p>
               </div>
